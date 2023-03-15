@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*Подключаем шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  background-color: antiquewhite;
+  background-image: url(./img/back1.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(184, 177, 177);
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.banner {
+  margin-top: 69px;
+  margin-left: 50px;
+}
+
+.title {
+  display: flex;
+  text-transform: uppercase;
+  color: rgb(244, 242, 242);
+  padding: 15px;
+  max-width: 25%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; 
+  transition: .5s ease;
+  cursor:  url(./img/cursor.png) 2 2;
+}
+
+.subtitle {
+  display: flex;
+  max-width: 25%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  font-weight: 400;
+  color: whitesmoke;
+  cursor: pointer; 
+  transition: .9s ease;
+}
+
+.title:hover {
+  text-shadow: 5px 5px #558ABB;
+  transition: .5s ease;
+}
+
+.subtitle:hover {
+  text-shadow: 1px 1px 2px #558ABB;
+  transition: .9s ease;
+}
+
+.skills {
+  justify-content: right;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 100px;
+  text-transform: uppercase;
+  color:  rgb(184, 177, 177);
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.skill-one {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+img {
+  width: 90px;
+  height: 90px; 
+  transition: .9s ease;
+  cursor: zoom-in;
+}
+
+img:hover {
+  -webkit-transform: scale(3);
+  -ms-transform: scale(3);
+  transform: scale(3);
+  transition: .5s ease;
+}
+
+.skill-two {
+  display: flex;
+  text-align: right;
+  justify-content: center;
+  margin-left: 400px;
+}
+
+.skill-three {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
